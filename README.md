@@ -1,0 +1,2 @@
+# JAVAPP
+Za JAVA vježbu
