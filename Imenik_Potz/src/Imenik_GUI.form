@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Imenik_GUI">
+  <grid id="27dc6" binding="Panel" layout-manager="GridLayoutManager" row-count="12" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="2" left="2" bottom="2" right="2"/>
+    <constraints>
+      <xy x="20" y="20" width="758" height="579"/>
+    </constraints>
+    <properties>
+      <background color="-7697782"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="f1d0a" class="javax.swing.JButton" binding="but_brisanje">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Izbriši"/>
+        </properties>
+      </component>
+      <component id="7364" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="503" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Forma unosa: Ime, Prezime, Adresa, Grad, Datum rođenja"/>
+        </properties>
+      </component>
+      <component id="2093" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="503" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Za brisanje je potreban redni broj osobe"/>
+        </properties>
+      </component>
+      <component id="e2d2e" class="javax.swing.JTextPane" binding="pane_output">
+        <constraints>
+          <grid row="3" column="0" row-span="9" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="503" height="250"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-14473688"/>
+          <editable value="true"/>
+          <foreground color="-5262925"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="b0eb4" class="javax.swing.JButton" binding="but_csv_save">
+        <constraints>
+          <grid row="11" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Spremi kao csv"/>
+        </properties>
+      </component>
+      <component id="637ad" class="javax.swing.JButton" binding="but_ispis">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="131" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Početni ispis"/>
+        </properties>
+      </component>
+      <component id="58ef7" class="javax.swing.JButton" binding="but_csv_load">
+        <constraints>
+          <grid row="11" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="131" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Učitaj csv"/>
+        </properties>
+      </component>
+      <component id="b7971" class="javax.swing.JButton" binding="but_akcija">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="131" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Unesi"/>
+        </properties>
+      </component>
+      <component id="1518" class="javax.swing.JTextField" binding="text_input">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="503" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
